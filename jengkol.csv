@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Sepatu Gunung / Hiking Pria - RI 025 Murah,sepatu-gunung-hiking-pria-ri-025,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Sepatu Hiking / Gunung / Boot Pria - RI 616 Murah,sepatu-hiking-gunung-boot-pria-ri-616,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Sepatu Gunung / Hiking Pria - RI 025 Murah,sepatu-gunung-hiking-pria-ri-025
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,18 @@ Jual Sepatu Gunung / Hiking Pria - RI 025 Murah,sepatu-gunung-hiking-pria-ri-025
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RI 025 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RI 025<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 39 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RI 616 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : RI 616<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +72,8 @@ Jual Sepatu Gunung / Hiking Pria - RI 025 Murah,sepatu-gunung-hiking-pria-ri-025
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/56-ri-025.jpg,Sepatu Gunung / Hiking Pria - RI 025,Rp 226.400,RI 025,Baru
-Jual Sepatu Gunung / Hiking Pria - RI 024 Murah,sepatu-gunung-hiking-pria-ri-024,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/232-ri-616.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-616-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-616-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-616-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-616-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-616-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RI 616,Rp 233.900,Rp 273.900,Rp 40.000,RI 616,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - RR 023 Murah,sepatu-hiking-gunung-boot-pria-rr-023,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +98,7 @@ Jual Sepatu Gunung / Hiking Pria - RI 024 Murah,sepatu-gunung-hiking-pria-ri-024
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +121,18 @@ Jual Sepatu Gunung / Hiking Pria - RI 024 Murah,sepatu-gunung-hiking-pria-ri-024
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RI 024 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RI 024<br/>Warna : TAN<br/>Bahan : LEATHER<br/>Ukuran : 39 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RR 023 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan SUEDE.<br/>Kode : RR 023<br/>Warna : COKLAT<br/>Bahan : SUEDE<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +146,8 @@ Jual Sepatu Gunung / Hiking Pria - RI 024 Murah,sepatu-gunung-hiking-pria-ri-024
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 39 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/57-ri-024.jpg,Sepatu Gunung / Hiking Pria - RI 024,Rp 229.900,RI 024,Baru
-Jual Sepatu Gunung / Hiking Pria - LI 053 Murah,sepatu-gunung-hiking-pria-li-053,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan SUEDE, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/233-rr-023.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-023-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-023-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-023-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-023-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-023-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RR 023,Rp 226.900,Rp 265.900,Rp 39.000,RR 023,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - LI 052 Murah,sepatu-hiking-gunung-boot-pria-li-052,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +172,7 @@ Jual Sepatu Gunung / Hiking Pria - LI 053 Murah,sepatu-gunung-hiking-pria-li-053
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +195,18 @@ Jual Sepatu Gunung / Hiking Pria - LI 053 Murah,sepatu-gunung-hiking-pria-li-053
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - LI 053 dengan bahan LEATHER ini dijamin awet.<br/>Kode : LI 053<br/>Warna : TAN<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - LI 052 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan SINTETIS.<br/>Kode : LI 052<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +220,8 @@ Jual Sepatu Gunung / Hiking Pria - LI 053 Murah,sepatu-gunung-hiking-pria-li-053
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/58-li-053.jpg,Sepatu Gunung / Hiking Pria - LI 053,Rp 248.900,LI 053,Baru
-Jual Sepatu Gunung / Hiking Pria - RI 616 Murah,sepatu-gunung-hiking-pria-ri-616,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/234-li-052.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-052-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-052-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-052-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-052-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-052-e.jpg,Sepatu Hiking / Gunung / Boot Pria - LI 052,Rp 233.900,Rp 273.900,Rp 40.000,LI 052,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - RR 002 Murah,sepatu-hiking-gunung-boot-pria-rr-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +246,7 @@ Jual Sepatu Gunung / Hiking Pria - RI 616 Murah,sepatu-gunung-hiking-pria-ri-616
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +269,18 @@ Jual Sepatu Gunung / Hiking Pria - RI 616 Murah,sepatu-gunung-hiking-pria-ri-616
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RI 616 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RI 616<br/>Warna : COKLAT<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RR 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : RR 002<br/>Warna : OLIP<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +294,8 @@ Jual Sepatu Gunung / Hiking Pria - RI 616 Murah,sepatu-gunung-hiking-pria-ri-616
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/59-ri-616.jpg,Sepatu Gunung / Hiking Pria - RI 616,Rp 233.900,RI 616,Baru
-Jual Sepatu Gunung / Hiking Pria - RR 023 Murah,sepatu-gunung-hiking-pria-rr-023,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna OLIP",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/235-rr-002.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-002-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-002-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-002-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-002-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-002-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RR 002,Rp 222.400,Rp 260.900,Rp 38.500,RR 002,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - RI 612 Murah,sepatu-hiking-gunung-boot-pria-ri-612,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +320,7 @@ Jual Sepatu Gunung / Hiking Pria - RR 023 Murah,sepatu-gunung-hiking-pria-rr-023
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +343,18 @@ Jual Sepatu Gunung / Hiking Pria - RR 023 Murah,sepatu-gunung-hiking-pria-rr-023
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RR 023 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RR 023<br/>Warna : COKLAT<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RI 612 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : RI 612<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +368,8 @@ Jual Sepatu Gunung / Hiking Pria - RR 023 Murah,sepatu-gunung-hiking-pria-rr-023
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/60-rr-023.jpg,Sepatu Gunung / Hiking Pria - RR 023,Rp 226.900,RR 023,Baru
-Jual Sepatu Gunung / Hiking Pria - LI 052 Murah,sepatu-gunung-hiking-pria-li-052,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/236-ri-612.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-612-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-612-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-612-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-612-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-612-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RI 612,Rp 248.900,Rp 291.900,Rp 43.000,RI 612,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - LI 053 Murah,sepatu-hiking-gunung-boot-pria-li-053,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +394,7 @@ Jual Sepatu Gunung / Hiking Pria - LI 052 Murah,sepatu-gunung-hiking-pria-li-052
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +417,18 @@ Jual Sepatu Gunung / Hiking Pria - LI 052 Murah,sepatu-gunung-hiking-pria-li-052
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - LI 052 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : LI 052<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - LI 053 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT BUK.<br/>Kode : LI 053<br/>Warna : TAN<br/>Bahan : KULIT BUK<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +442,8 @@ Jual Sepatu Gunung / Hiking Pria - LI 052 Murah,sepatu-gunung-hiking-pria-li-052
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/61-li-052.jpg,Sepatu Gunung / Hiking Pria - LI 052,Rp 233.900,LI 052,Baru
-Jual Sepatu Gunung / Hiking Pria - MP 161 Murah,sepatu-gunung-hiking-pria-mp-161,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT BUK, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/237-li-053.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-053-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-053-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-053-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-053-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-053-e.jpg,Sepatu Hiking / Gunung / Boot Pria - LI 053,Rp 248.900,Rp 291.900,Rp 43.000,LI 053,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - RR 003 Murah,sepatu-hiking-gunung-boot-pria-rr-003,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +468,7 @@ Jual Sepatu Gunung / Hiking Pria - MP 161 Murah,sepatu-gunung-hiking-pria-mp-161
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +491,18 @@ Jual Sepatu Gunung / Hiking Pria - MP 161 Murah,sepatu-gunung-hiking-pria-mp-161
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - MP 161 dengan bahan LEATHER ini dijamin awet.<br/>Kode : MP 161<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 39 - 43<br/>Berat : 1.4 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RR 003 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : RR 003<br/>Warna : ABU ABU<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +516,8 @@ Jual Sepatu Gunung / Hiking Pria - MP 161 Murah,sepatu-gunung-hiking-pria-mp-161
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/62-mp-161.jpg,Sepatu Gunung / Hiking Pria - MP 161,Rp 274.900,MP 161,Baru
-Jual Sepatu Gunung / Hiking Pria - RI 612 Murah,sepatu-gunung-hiking-pria-ri-612,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/238-rr-003.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-003-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-003-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-003-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-003-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rr-003-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RR 003,Rp 222.400,Rp 260.900,Rp 38.500,RR 003,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - LI 066 Murah,sepatu-hiking-gunung-boot-pria-li-066,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +542,7 @@ Jual Sepatu Gunung / Hiking Pria - RI 612 Murah,sepatu-gunung-hiking-pria-ri-612
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +565,18 @@ Jual Sepatu Gunung / Hiking Pria - RI 612 Murah,sepatu-gunung-hiking-pria-ri-612
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RI 612 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RI 612<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - LI 066 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : LI 066<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +590,8 @@ Jual Sepatu Gunung / Hiking Pria - RI 612 Murah,sepatu-gunung-hiking-pria-ri-612
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/63-ri-612.jpg,Sepatu Gunung / Hiking Pria - RI 612,Rp 248.900,RI 612,Baru
-Jual Sepatu Gunung / Hiking Pria - MP 160 Murah,sepatu-gunung-hiking-pria-mp-160,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/245-li-066.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-066-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-066-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-066-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-066-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/li-066-e.jpg,Sepatu Hiking / Gunung / Boot Pria - LI 066,Rp 259.900,Rp 304.900,Rp 45.000,LI 066,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - RI 010 Murah,sepatu-hiking-gunung-boot-pria-ri-010,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +616,7 @@ Jual Sepatu Gunung / Hiking Pria - MP 160 Murah,sepatu-gunung-hiking-pria-mp-160
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +639,18 @@ Jual Sepatu Gunung / Hiking Pria - MP 160 Murah,sepatu-gunung-hiking-pria-mp-160
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - MP 160 dengan bahan LEATHER ini dijamin awet.<br/>Kode : MP 160<br/>Warna : TAN<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - RI 010 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : RI 010<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +664,8 @@ Jual Sepatu Gunung / Hiking Pria - MP 160 Murah,sepatu-gunung-hiking-pria-mp-160
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/64-mp-160.jpg,Sepatu Gunung / Hiking Pria - MP 160,Rp 278.900,MP 160,Baru
-Jual Sepatu Gunung / Hiking Pria - MP 102 Murah,sepatu-gunung-hiking-pria-mp-102,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/246-ri-010.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-010-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-010-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-010-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-010-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ri-010-e.jpg,Sepatu Hiking / Gunung / Boot Pria - RI 010,Rp 249.400,Rp 291.900,Rp 42.500,RI 010,Baru
+Jual Sepatu Hiking / Gunung / Boot Pria - MP 160 Murah,sepatu-hiking-gunung-boot-pria-mp-160,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +690,7 @@ Jual Sepatu Gunung / Hiking Pria - MP 102 Murah,sepatu-gunung-hiking-pria-mp-102
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +713,18 @@ Jual Sepatu Gunung / Hiking Pria - MP 102 Murah,sepatu-gunung-hiking-pria-mp-102
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - MP 102 dengan bahan LEATHER ini dijamin awet.<br/>Kode : MP 102<br/>Warna : COKLAT<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Hiking / Gunung / Boot Pria - MP 160 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung Pria ini terbuat dari bahan KULIT.<br/>Kode : MP 160<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,634 +738,4 @@ Jual Sepatu Gunung / Hiking Pria - MP 102 Murah,sepatu-gunung-hiking-pria-mp-102
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/65-mp-102.jpg,Sepatu Gunung / Hiking Pria - MP 102,Rp 297.400,MP 102,Baru
-Jual Sepatu Gunung / Hiking Pria - RR 003 Murah,sepatu-gunung-hiking-pria-rr-003,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RR 003 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RR 003<br/>Warna : ABU ABU<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/66-rr-003.jpg,Sepatu Gunung / Hiking Pria - RR 003,Rp 222.400,RR 003,Baru
-Jual Sepatu Gunung / Hiking Pria - RR 002 Murah,sepatu-gunung-hiking-pria-rr-002,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RR 002 dengan bahan LEATHER ini dijamin awet.<br/>Kode : RR 002<br/>Warna : OLIP<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : RUBBER<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan LEATHER, Ukuran 38 - 43, Warna OLIP",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/67-rr-002.jpg,Sepatu Gunung / Hiking Pria - RR 002,Rp 222.400,RR 002,Baru
-Jual Sepatu Gunung / Hiking Pria - RLI 029 Murah,sepatu-gunung-hiking-pria-rli-029,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RLI 029 dengan bahan KULIT ini dijamin awet.<br/>Kode : RLI 029<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/240-rli-029.jpg,Sepatu Gunung / Hiking Pria - RLI 029,Rp 215.400,RLI 029,Baru
-Jual Sepatu Gunung / Hiking Pria - RRR 015 Murah,sepatu-gunung-hiking-pria-rrr-015,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RRR 015 dengan bahan KULIT ini dijamin awet.<br/>Kode : RRR 015<br/>Warna : HITAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/241-rrr-015.jpg,Sepatu Gunung / Hiking Pria - RRR 015,Rp 245.900,RRR 015,Baru
-Jual Sepatu Gunung / Hiking Pria - RLI 007 Murah,sepatu-gunung-hiking-pria-rli-007,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RLI 007 dengan bahan KULIT ini dijamin awet.<br/>Kode : RLI 007<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/242-rli-007.jpg,Sepatu Gunung / Hiking Pria - RLI 007,Rp 251.400,RLI 007,Baru
-Jual Sepatu Gunung / Hiking Pria - RRR 022 Murah,sepatu-gunung-hiking-pria-rrr-022,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RRR 022 dengan bahan SUEDE ini dijamin awet.<br/>Kode : RRR 022<br/>Warna : TAN<br/>Bahan : SUEDE<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan SUEDE, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/243-rrr-022.jpg,Sepatu Gunung / Hiking Pria - RRR 022,Rp 222.400,RRR 022,Baru
-Jual Sepatu Gunung / Hiking Pria - RRI 001 Murah,sepatu-gunung-hiking-pria-rri-001,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RRI 001 dengan bahan KULIT ini dijamin awet.<br/>Kode : RRI 001<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/244-rri-001.jpg,Sepatu Gunung / Hiking Pria - RRI 001,Rp 240.900,RRI 001,Baru
-Jual Sepatu Gunung / Hiking Pria - RRR 019 Murah,sepatu-gunung-hiking-pria-rrr-019,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RRR 019 dengan bahan SUEDE ini dijamin awet.<br/>Kode : RRR 019<br/>Warna : COKLAT<br/>Bahan : SUEDE<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan SUEDE, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/245-rrr-019.jpg,Sepatu Gunung / Hiking Pria - RRR 019,Rp 215.400,RRR 019,Baru
-Jual Sepatu Gunung / Hiking Pria - RRI 011 Murah,sepatu-gunung-hiking-pria-rri-011,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RRI 011 dengan bahan KULIT ini dijamin awet.<br/>Kode : RRI 011<br/>Warna : TAN<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/246-rri-011.jpg,Sepatu Gunung / Hiking Pria - RRI 011,Rp 226.400,RRI 011,Baru
-Jual Sepatu Gunung / Hiking Pria - RLI 028 Murah,sepatu-gunung-hiking-pria-rli-028,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Gunung Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Gunung / Hiking Pria - RLI 028 dengan bahan KULIT ini dijamin awet.<br/>Kode : RLI 028<br/>Warna : COKLAT<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1.4 kg<br/>Sol : SOL KARET<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-gunung-pria,raindoz,sepatu-gunung-pria,raindoz,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/247-rli-028.jpg,Sepatu Gunung / Hiking Pria - RLI 028,Rp 244.400,RLI 028,Baru
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-gunung-pria,catenzo,sepatu-gunung-pria,catenzo,"Sepatu Gunung Pria Bahan KULIT, Ukuran 38 - 43, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/247-mp-160.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mp-160-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mp-160-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mp-160-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mp-160-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/mp-160-e.jpg,Sepatu Hiking / Gunung / Boot Pria - MP 160,Rp 278.900,Rp 326.900,Rp 48.000,MP 160,Baru
